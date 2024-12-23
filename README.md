@@ -26,13 +26,10 @@ typedef struct
  DAYTYPE *fnCreateCal(); 
   
  int main() 
- {// Create the calendar 
+ {
  DAYTYPE *weeklyCalendar = fnCreateCal(); 
- // Read data from the keyboard 
  fnReadCal (weeklyCalendar); 
- //display the week activity details  
  fnDispCal(weeklyCalendar); 
- // Free allocated memory  
  fnFreeCal (weeklyCalendar); 
  return 0; 
 } 
@@ -64,15 +61,15 @@ for (int i = 0; i < NUM_DAYS_IN_WEEK; i++)
     printf("Day Name: "); 
     char nameBuffer[50]; 
     scanf("%s", &nameBuffer); 
-     calendar[i].acDayName = strdup (nameBuffer); // Dynamically allocate and copy the string 
+     calendar[i].acDayName = strdup (nameBuffer);
     printf("Date: "); 
     scanf("%d", &calendar[i].iDate); 
     printf("Activity: "); 
     char activityBuffer[100]; 
-    scanf("%S", &activityBuffer); // Read the entire line including spaces 
+    scanf("%S", &activityBuffer); 
     calendar[i].acActivity = strdup (activityBuffer); 
     printf("\n"); 
-    getchar(); //remove trailing enter character in input buffer 
+    getchar(); 
     } 
 } 
 void fnDispCal (DAYTYPE *calendar) 
