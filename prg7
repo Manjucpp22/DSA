@@ -228,3 +228,82 @@ QUEUE OPERATIONS
 Enter your choice 
 3 
 Node deleted is SDFG 
+1.Insert Front 
+2.Insert Rear 
+3.Delete Front 
+4.Delete Rear 
+ 
+Node deleted for ABCD 
+QUEUE OPERATIONS 
+==================== 
+1.Insert Front 
+2.Insert Rear 
+3.Delete Front 
+4.Delete Rear 
+5.Display 
+6.Exit 
+Enter your choice 
+5 
+The contents of SLL are : 
+USN          Name    Program  Sem     Phone num 
+2VX22CB2      LKJH    CSBS      3       861547 
+SLL has 1 nodes 
+ 
+QUEUE OPERATIONS 
+==================== 
+1.Insert Front 
+2.Insert Rear 
+3.Delete Front 
+4.Delete Rear 
+5.Display 
+ 
+6.Exit 
+QUEUE OPERATIONS 
+==================== 
+1.Insert Front 
+2.Insert Rear 
+3.Delete Front 
+4.Delete Rear 
+5.Display 
+6.Exit 
+Enter your choice 
+2 
+Enter USN : 2VX22CB5 
+Enter name : GHIJK 
+Enter Program name : CSBS 
+Enter semester : 3 
+Enter Phone no : 618534 
+Enter your choice 
+ 
+Enter your choice 
+1 
+Enter USN : 2VXCB6 
+Enter name : MNOP 
+Enter Program name : CSBS 
+Enter semester : 3 
+Enter Phone no : 921437 
+QUEUE OPERATIONS 
+==================== 
+1.Insert Front 
+2.Insert Rear 
+3.Delete Front 
+4.Delete Rear 
+5.Display 
+6.Exit 
+Enter your choice 
+5 
+The contents of SLL are : 
+ USN           Name    Program  Sem     Phone num 
+ 2VX22CB6      MNOP    CSBS      3       921437 
+ 2VX22CB2      LKJH      CSBS      3       861547 
+SLL has 2 nodes 
+ 
+QUEUE OPERATIONS 
+==================== 
+1.Insert Front 
+2.Insert Rear 
+3.Delete Front 
+4.Delete Rear 
+5.Display 
+6.Exit 
+
