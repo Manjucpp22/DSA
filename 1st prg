@@ -1,0 +1,32 @@
+#include <stdio.h>
+#define MAX_DES_LENGTH 100
+#define MAX_DAY_NAME_LENGTH 20
+struct day{
+char dayName[MAX_DAY_NAME_LENGTH];
+int date;
+char dayDes[MAX_DES_LENGTH];
+};
+struct day weekcalender[7];
+void read(){
+for(int i=0;i<7;++i){
+printf("\nENTER THE DAY NAME OF DAY %d: \n",i+1);
+scanf("%s",weekcalender[i].dayName);
+printf("\nEnter the date for day %d :",i+1);
+scanf("%d",&weekcalender[i].date);
+printf("\nEnter Activity Description for day %d:",i+1);
+scanf("%s",weekcalender[i].dayDes);
+}
+}
+void display(){
+printf("\n --calender--\n");
+for(int i=0;i<7;++i){
+        printf("DAY %d :%s Date :%d Activity Description:%s\n",i+1,weekcalender[i].dayName,weekcalender[i].date,weekcalender[i].dayDes );
+}
+}
+int main()
+{
+printf("ENTER THE DETAILS OF EACH DAY\n");
+read();
+display();
+return 0;
+}
